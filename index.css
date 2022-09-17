@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #1b244a;
+
+}
+
+.container h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+#home-score {
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #080001;
+    width: 155px;
+    height: 120px;
+}
+
+#home-points-text {
+    color: #f94f6d;
+    font-family: Verdana;
+    font-size: 80px;
+    margin: 10px;
+}
+
+#guest-points-text {
+    color: #f94f6d;
+    font-family: Verdana;
+    font-size: 80px;
+    margin: 10px;
+}
+
+#add-points-btns {
+    width: 155px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#add-points-btns-guest {
+    width: 155px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#plus-one-point {
+    width: 45px;
+    height: 45px;
+    margin-left: 2px;
+    background-color: #1b244a;
+    font-family: Verdana;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#plus-two-point {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    background-color: #1b244a;
+    font-family: Verdana;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#plus-three-point {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+    background-color: #1b244a;
+    font-family: Verdana;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#reset-game-btn {
+    width: 155px;
+    height: 45px;
+    margin-left: 5px;
+    background-color: #1b244a;
+    font-family: Verdana;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+    
+
